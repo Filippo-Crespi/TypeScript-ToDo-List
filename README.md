@@ -1,7 +1,7 @@
 # 3. Managing a To-Do List
----
+
 ## Objective: Create an application to manage a to-do list.
----
+
 ### Requirements:
 
 - It must be possible to add new activities.
