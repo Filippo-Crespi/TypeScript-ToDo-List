@@ -41,11 +41,11 @@ button {
   background-color: #cfd2cd;
 }
 
-button{
+button {
   cursor: pointer;
 }
 
-button:hover{
+button:hover {
   background-color: #abafa8;
 }
 
