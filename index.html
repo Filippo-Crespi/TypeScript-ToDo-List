@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <h1>✅ - To-Do List</h1>
+
+    <hr />
+
+    <div class="input-box">
+      <form class="task-input">
+        <input type="text" id="desc" placeholder="Description" required />
+        <input type="date" id="data" placeholder="Deadline" required />
+        <button id="add-btn">Add</button>
+      </form>
+      <form class="filter-input">
+        <select id="filter">
+          <option value="DONE" selected>Completed</option>
+          <option value="UNDONE">Uncompleted</option>
+        </select>
+        <button id="filter-btn">Filter</button>
+      </form>
+    </div>
+
+    <hr />
+    <table>
+      <thead>
+        <tr>
+          <th style="width: 10%"><h2>Status</h2></th>
+          <th style="width: 60%"><h2>Description</h2></th>
+          <th style="width: 20%"><h2>Deadline</h2></th>
+          <th style="width: 10%"><h2>Delete</h2></th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <script src="./dist/app.js"></script>
+  </body>
+</html>
